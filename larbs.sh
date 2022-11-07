@@ -6,7 +6,7 @@
 
 ### OPTIONS AND VARIABLES ###
 
-dotfilesrepo="https://github.com/lukesmithxyz/voidrice.git"
+dotfilesrepo="https://github.com/edbizarro/dotfiles.git"
 progsfile="https://raw.githubusercontent.com/LukeSmithxyz/LARBS/master/progs.csv"
 aurhelper="yay"
 repobranch="master"
@@ -239,7 +239,7 @@ done
 
 whiptail --title "LARBS Installation" \
 	--infobox "Synchronizing system time to ensure successful and secure installation of software..." 8 70
-ntpdate 0.us.pool.ntp.org >/dev/null 2>&1
+ntpdate a.st1.ntp.br >/dev/null 2>&1
 
 adduserandpass || error "Error adding username and/or password."
 
